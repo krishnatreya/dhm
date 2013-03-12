@@ -73,8 +73,6 @@ density = ((999.83952d + 16.945176d*temperature) - $
 T = temperature/Tref + 1.d       ; Temperature in degrees Celsius
 rho = density/rhoref
 
-print, rho
-
 lambda = wavelength/lambdaref
 
 a0 = 0.244257733
