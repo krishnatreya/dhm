@@ -49,8 +49,6 @@ COMPILE_OPT IDL2
 
 umsg = 'bg = bgestimate(a, n0 = n0, n1 = n1)'
 
-;a = dgggrmplayer('~/Desktop/VTS_03_1.VOB', /gray, dim = [w, h])
-
 if ~isa(a, 'DGGgrMPlayer') then begin
    message, umsg, /inf
    message, 'A must be a DGGgrMPlayer object', /inf
